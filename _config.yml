@@ -21,7 +21,7 @@ baseurl: / # the subpath of your site, e.g. /blog/
 url: "http://hoodps.github.io" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
-theme_color: "#78909c"
+theme_color: "#70aad0"
 
 # Build settings
 markdown: kramdown
