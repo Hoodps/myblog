@@ -72,8 +72,8 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    username: Hoodps
+    url: https://twitter.com/791859814Hoodps
     desc: Follow me on Twitter
     share: true
 
@@ -86,8 +86,8 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: Hoodps
+    url: https://github.com/Hoodps
     desc: Fork me on GitHub
     share: false
 
