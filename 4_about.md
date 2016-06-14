@@ -4,7 +4,7 @@ title: "关于"
 permalink: /about/
 ---
 
-<img src="/assets/bingo_me.jpg" style="width: 50%;">
+<img src="/assets/profile-placeholder.gif" style="width: 50%;">
 
 这就是自恋的我，2013年毕业，开始从事嵌入式开发，毕业后一直从事Android客户端开发。
 

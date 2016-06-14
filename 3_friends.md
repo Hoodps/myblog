@@ -4,9 +4,9 @@ title: 收藏
 permalink: /friends/
 ---
 
-### 伙伴们
+### 收藏
 
-[drakeet](http://drakeet.me/) 90后技术新星
+[drakeet](http://drakeet.me/) 界面好看
 
 ### 推荐
 
