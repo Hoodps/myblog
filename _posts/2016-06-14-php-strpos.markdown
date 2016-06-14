@@ -29,7 +29,8 @@ categories: PHP
             return true;
         }
 
-        if (strpos(',' . $_SESSION['action_list'] . ',', ',' . $priv_str . ',') === false)
+        if (strpos(',' . $_SESSION['action_list'] . ',', ',' . $priv_str . ',') 
+        === false)
         {
             $link[] = array('text' => $_LANG['go_back'], 
                             'href' => 'javascript:history.back(-1)'
@@ -56,9 +57,10 @@ categories: PHP
 每一个控制器用逗号隔开,然后使用strpos()函数查找字符串第一次出现的位置。
 
 相关函数：
- - stripos() - 查找字符串在另一字符串中第一次出现的位置（不区分大小写）
- - strripos() - 查找字符串在另一字符串中最后一次出现的位置（不区分大小写）
- - strrpos() - 查找字符串在另一字符串中最后一次出现的位置（区分大小写）
+
+ - stripos()- 查找字符串在另一字符串中第一次出现的位置（不区分大小写）
+ - strripos()- 查找字符串在另一字符串中最后一次出现的位置（不区分大小写）
+ - strrpos()- 查找字符串在另一字符串中最后一次出现的位置（区分大小写）
 
 
 
