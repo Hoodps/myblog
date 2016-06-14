@@ -3,7 +3,7 @@ layout: post
 title:  "test"
 date:   2016-06-14 11:43:59
 author: Hoodps
-categories: PHP
+categories: Dummy
 tags: Technology
 ---
 
