@@ -48,6 +48,7 @@ tags: Technology
     }
 
 用户的权限都存在session里面的action_list字段中，例如
+
     ["action_list"]=> string(264) "goods_manage,remove_back,cat_manage,
     cat_drop,attr_manage,brand_manage,comment_priv,tag_manage,goods_type,
     goods_auto,virualcard,picture_batch,goods_export,goods_batch,
@@ -56,9 +57,9 @@ tags: Technology
 每一个控制器用逗号隔开,然后使用strpos()函数查找字符串第一次出现的位置。
 
 相关函数：
-* stripos() - 查找字符串在另一字符串中第一次出现的位置（不区分大小写）
-* strripos() - 查找字符串在另一字符串中最后一次出现的位置（不区分大小写）
-* strrpos() - 查找字符串在另一字符串中最后一次出现的位置（区分大小写）
+    - stripos() - 查找字符串在另一字符串中第一次出现的位置（不区分大小写）
+    - strripos() - 查找字符串在另一字符串中最后一次出现的位置（不区分大小写）
+    - strrpos() - 查找字符串在另一字符串中最后一次出现的位置（区分大小写）
 
 
 
