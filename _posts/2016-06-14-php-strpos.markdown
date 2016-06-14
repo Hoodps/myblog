@@ -3,7 +3,7 @@ layout: post
 title:  "PHP strpos函数的应用"
 date:   2015-06-14 11:43:59
 author: Ben Centra
-categories: Dummy
+categories: PHP
 ---
 
 在PHP中经常用到字符串的查找函数`strpos()`,已判读某个字符串是否在另外一个字符串中,同是还可以判读字符串中的出现的位置。
