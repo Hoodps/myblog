@@ -1,5 +1,5 @@
 // Google Fonts
-//@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600ital//ic,700italic,800italic,400,800,700,600,300);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
 
 // Typography
 $base-font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; // $helvetica;
@@ -26,10 +26,16 @@ $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 $white: #fff;
+$black: #000;
+$weibo_primary: #E6434F;
+$github_primary: #5D5D5D;
+$zhihu_primary: #0185DD;
+$google_primary: #EA4335;
+$twitter_primary: #3B94D9;
 // Flat UI Colors. For more, see http://flatuicolors.com/
 $turquoise: #1abc9c;	// Turqoise
 $green: #27ae60;	  	// Nephritis
-$blue: #2980b9;				// Belize Hole
+$blue: #607D8B;				// Belize Hole
 $purple: #8e44ad;			// Wisteria
 $orange: #d35400;			// Pumpkin
 $red:	#c0392b;				// Pomegranate
