@@ -23,7 +23,7 @@ baseurl: /
 url: "http://hoodps.github.io"
 cover: "assets/header_image.jpg"
 theme_color: "#78909c"
-logo: "assets/logo.png"
+#logo: "assets/logo.png"
 
 # Build settings
 markdown: kramdown
