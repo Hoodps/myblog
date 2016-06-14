@@ -1,10 +1,9 @@
 ---
 layout: post
-author: Hoodps
+title:  "PHP strpos函数的应用"
 date:   2016-06-14 11:43:59
-title: PHP strpos函数的应用
-cover: "zzz"
-categories: HPH
+author: Ben Centra
+categories: PHP
 tags: Technology
 ---
 
