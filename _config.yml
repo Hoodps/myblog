@@ -44,7 +44,7 @@ jekyll-archives:
 
 disqus_shortname: 
 
-duoshuo_shortname: sunfusheng
+#duoshuo_shortname: sunfusheng
 
 # Google analytics
 # ga_tracking_id: "UA-64640288-1"
