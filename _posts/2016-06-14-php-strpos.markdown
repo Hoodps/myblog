@@ -29,7 +29,7 @@ categories: PHP
             return true;
         }
 
-        if (strpos(',' . $_SESSION['action_list'] . ',', ',' . $priv_str . ',') 
+        if(strpos(',' . $_SESSION['action_list'] . ',', ',' . $priv_str . ',') 
         === false)
         {
             $link[] = array('text' => $_LANG['go_back'], 
