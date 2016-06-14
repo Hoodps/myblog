@@ -41,7 +41,10 @@ tags: Technology
     }
 
     用户的权限都存在session里面的action_list字段中，例如
-        ["action_list"]=> string(264) "goods_manage,remove_back,cat_manage,cat_drop,attr_manage,brand_manage,comment_priv,tag_manage,goods_type,goods_auto,virualcard,picture_batch,goods_export,goods_batch,gen_goods_script,article_cat,article_manage,shopinfo_manage,shophelp_manage,vote_priv,article_auto" 
+        ["action_list"]=> string(264) "goods_manage,remove_back,cat_manage,cat_drop,attr_manage,
+        brand_manage,comment_priv,tag_manage,goods_type,goods_auto,virualcard,picture_batch,
+        goods_export,goods_batch,gen_goods_script,article_cat,article_manage,shopinfo_manage,
+        shophelp_manage,vote_priv,article_auto" 
     每一个控制器用逗号隔开,然后使用strpos()函数查找字符串第一次出现的位置。
 
     相关函数：
