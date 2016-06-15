@@ -42,9 +42,9 @@ jekyll-archives:
 
 # Disqus comments
 
-disqus_shortname: 
+#disqus_shortname: 
 
-#duoshuo_shortname: sunfusheng
+duoshuo_shortname: hoodps
 
 # Google analytics
 ga_tracking_id: "UA-78976115-1"
