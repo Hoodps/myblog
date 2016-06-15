@@ -16,6 +16,7 @@ categories: Macbook
 ## 登录远程服务器
 
 常用格式：ssh [-l login_name] [-p port] [user@]hostname
+
 举例
  
 不指定用户：
