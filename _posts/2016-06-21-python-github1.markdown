@@ -8,7 +8,7 @@ categories: python
 
 查看被删的微信好友,原理就是新建群组,如果加不进来就是被删好友了(不要在群组里讲话,别人是看不见的)用的是微信网页版的接口.[github地址](https://github.com/0x5e/wechat-deleted-friends)
 
-## Python的运算符
+## Python优秀项目源码
 
 	#!/usr/bin/env python
 	# coding=utf-8
