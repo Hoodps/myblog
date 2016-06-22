@@ -55,5 +55,9 @@ PermitRootLogin no
  
 service sshd restart
 
+## python 包安装
+
+sudo pip install beautifulsoup4
+
 
 
