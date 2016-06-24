@@ -111,6 +111,9 @@
 
 
                 <!--<p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>-->
+                <span id="busuanzi_container_site_pv">
+                    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+                </span>
                 <div class="site-version text-right" style="display:block;">
                     <p>
                         Powered by <a href="http://jekyllcn.com">Jekyll</a>,&nbsp;
@@ -126,6 +129,8 @@
 <script src="/js/jquery-1.11.2.min.js"></script>
 <script src="/js/highlight.min.js"></script>
 <script src="/js/lightbox.min.js"></script>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
 <script>
 
 $(document).ready(function() {
@@ -188,14 +193,14 @@ $(document).ready(function() {
 
 <script>
 
-$.post("http://m.cuxiaoke.cn/About/test",{pid:this.value}, function(ret) {
-    console.log(ret);
-    if (ret.code == 1) {
+// $.post("http://m.cuxiaoke.cn/About/test",{pid:this.value}, function(ret) {
+//     console.log(ret);
+//     if (ret.code == 1) {
         
-    }else{
-    }
+//     }else{
+//     }
 
-});
+// });
 
 </script>
 
