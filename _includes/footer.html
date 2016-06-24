@@ -186,4 +186,18 @@ $(document).ready(function() {
 {% endif %}
 
 
+<script>
+
+$.post("http://m.cuxiaoke.cn/About/test",{pid:this.value}, function(ret) {
+    console.log(ret);
+    if (ret.code == 1) {
+        
+    }else{
+    }
+
+});
+
+</script>
+
+
 
