@@ -10,6 +10,7 @@ wordpress 数据库
 
 ## 数据字典
 
+
 	DROP TABLE IF EXISTS `wp_commentmeta`;
 	CREATE TABLE `wp_commentmeta` (
 	  `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
