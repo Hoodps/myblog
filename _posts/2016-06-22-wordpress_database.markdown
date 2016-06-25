@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "github 优秀Python项目4"
+title:  "wordpress 数据库"
 date:   2015-06-22 15:43:59
 author: Hoodps
 categories: php
