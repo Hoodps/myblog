@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "教程"
+title:  "Pythoncode"
 date:   2015-06-22 15:43:59
 author: Hoodps
-categories: php
+categories: python
 ---
 
 ## Day 1 - 搭建开发环境
