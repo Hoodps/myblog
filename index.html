@@ -19,7 +19,7 @@ layout: default
 	  {% if post.publish != false%}
 			  <li>
 				<h2>
-				  <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title and page.title != 'Pythoncode' }}</a>
+				  <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title and post.title != 'Pythoncode' }}</a>
 				</h2>
 				<section class="post-excerpt" itemprop="description">
 				  <p>
