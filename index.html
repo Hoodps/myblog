@@ -16,10 +16,10 @@ layout: default
 <ul class="post-list">
   {% for post in paginator.posts %}
 	  <!-- if the param of publish in post is false,the post will not appear in post list -->
-	  {% if post.publish != false%}
+	  {% if post.publish != false %}
 			  <li>
 				<h2>
-				  <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title and post.title != 'Pythoncode' }}</a>
+				  <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
 				</h2>
 				<section class="post-excerpt" itemprop="description">
 				  <p>
