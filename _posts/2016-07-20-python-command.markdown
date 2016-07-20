@@ -6,7 +6,7 @@ author: Hoodps
 categories: python
 ---
 
-## Python中的一写常用的命令行，方便记忆和使用
+Python中的一写常用的命令行，方便记忆和使用
 
 	>>> a = 234
 	>>> type(a)   #查看变量的类型
