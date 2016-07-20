@@ -15,5 +15,7 @@ categories: python
 	140639422406536
 	>>>exit()   #退出pyhton
 
+	>>>import this  #Python的禅
+
 
 

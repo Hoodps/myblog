@@ -159,6 +159,7 @@ pre code.hljs {
     margin-left: -37px;
     @include media ($tablet) {
       float: right;
+      margin-top: 3px;
       line-height: 1.5em;
     }
   }
