@@ -1,23 +1,22 @@
 ---
 layout: post
-title:  "python 列表(List)"
-date:   2015-07-20 09:43:59
+title:  "python 字典(Dictionary)"
+date:   2015-07-20 16:43:59
 author: Hoodps
 categories: python
 ---
 
-列表是最常用的Python数据类型，它可以作为一个方括号内的逗号分隔值得出现。
-list = [1,2,3,4],列表可变
-
-## 访问列表中的值
+字典是另一种可变容器模型，且可存储任意类型对象。
+字典的每个键值(key=>value)对用冒号(:)分割，每个对之间用逗号(,)分割，整个字典包括在花括号({})中 ,格式如下所示：dic = {key1:value1,key2:value2}
+## 访问元组
 使用下标索引来访问列表中的值
 
-	>>> list1 = ['hello','world',123,345]
-	>>> list2 = [1,23,4,5,6,7,8,9]
-	>>> print list1[1]
-	world
-	>>> print list2[2:5]
-	[4, 5, 6]
+	>>>tuple1 = (1,23,5,67,8,9,0)
+	>>> print tuple1[2]
+	5
+	>>> print tuple1[1:3]
+	(23, 5)
+	>>> 
 
 ## 更新列表中的值
 
