@@ -34,6 +34,7 @@ categories: python
 ## 删除字典中的元素
 能删单一的元素也能清空字典，清空只需一项操作。
 显示删除一个字典用del命令，如下实例：
+
 	>>> print dict1
 	{'age': 32, 'name': 'hoodps', 'class': 'test'}
 	>>> del dict1['name']
@@ -44,6 +45,7 @@ categories: python
 	>>> dict1.clear()
 	>>> print dict1
 	{}
+	
 ## python 字典的常用操作
 
 	>>> len(list3) #列表的长度
