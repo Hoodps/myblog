@@ -45,19 +45,20 @@ categories: python
 	>>> dict1.clear()
 	>>> print dict1
 	{}
-	
-## python 字典的常用操作
 
-	>>> len(list3) #列表的长度
+## python 字典的特性
+1）不允许同一个键出现两次，会被后一个翻盖
+2）键不可变
+
+	>>> dict2 = {'name':'hoodps','sex':'man','age':22}
+	>>> len(dict2)
 	3
-	>>> list4 = [2,3,4,5] + [6,7,8,9] #列表组合
-	>>> print list4
-	[2, 3, 4, 5, 6, 7, 8, 9]
-	>>> list5 = ['yes'] * 4 #列表相乘
-	>>> print list5
-	['yes', 'yes', 'yes', 'yes']
-	>>> 6 in list4 #判读元素是否在类表中
-	True
+	>>> print str(dict2)
+	{'age': 22, 'name': 'hoodps', 'sex': 'man'}
+	>>> print dict2
+	{'age': 22, 'name': 'hoodps', 'sex': 'man'}
+	>>> type(dict2)
+	<type 'dict'>
 
 
 
