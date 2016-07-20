@@ -22,23 +22,28 @@ Python的元组与列表类似，不同之处在于元组的元素不能修改�
 
 ## 更新列表中的值
 
-	>>> list1 = ['hello','world',123,345]
-	>>> list2 = [1,23,4,5,6,7,8,9]
-	>>> print list1[2]
-	123
-	>>> list1[2] = 435899
-	>>> print list1
-	['hello', 'world', 435899, 345]
+	>>> tuple2 = (23,34,456,57)
+	>>> tuple3 = ('this','is','a','tuple')
+	>>> tuple4 = tuple2 + tuple3
+	>>> print tuple4
+	(23, 34, 456, 57, 'this', 'is', 'a', 'tuple')
+
+	>>> tuple2[3] = 3478  #这样修改会保存
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: 'tuple' object does not support item assignment
 
 ## 删除列表中的元素 del list[3]
 
-	>>> list3 = ["I", "am","python","oh"]
-	>>> print list3
-	['I', 'am', 'python', 'oh']
-	>>> del list3[3]
-	>>> print list3
-	['I', 'am', 'python']
-	>>> 
+	>>> del tuple2
+	>>> print tuple2
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	NameError: name 'tuple2' is not defined
+	>>> del tuple3[0]
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: 'tuple' object doesn't support item deletion
 
 ## python 列表的常用操作
 
