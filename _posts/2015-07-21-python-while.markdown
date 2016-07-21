@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python while语句"
-date:   2015-07-21 09:43:59
+date:   2015-07-21 09:23:59
 author: Hoodps
 categories: python
 ---
