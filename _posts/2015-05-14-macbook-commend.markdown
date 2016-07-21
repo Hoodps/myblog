@@ -59,5 +59,8 @@ service sshd restart
 
 sudo pip install beautifulsoup4
 
+## 命令行光标移动第一行
+CTRL+L
+
 
 

@@ -17,5 +17,7 @@ Python中的一写常用的命令行，方便记忆和使用
 
 	>>>import this  #Python的禅
 
+	>>>help(sys) #查看sys模块中的变量和方法
+
 
 
