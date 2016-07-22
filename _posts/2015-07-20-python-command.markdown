@@ -18,6 +18,17 @@ Python中的一写常用的命令行，方便记忆和使用
 	>>>import this  #Python的禅
 
 	>>>help(sys) #查看sys模块中的变量和方法
+	#按字母 "q"退出help界面，
+
+
+## ipython 使用
+
+ctrl + a 光标移动到开头
+ctrl + e 光标移动到结尾
+
+模块. + tab键   查看这个模块下的所有方法
+
+%history 查看输入的内容
 
 
 

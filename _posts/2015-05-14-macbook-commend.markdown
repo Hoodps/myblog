@@ -62,5 +62,8 @@ sudo pip install beautifulsoup4
 ## 命令行光标移动第一行
 CTRL+L
 
+## 显示当前目录路径
+pwd
+
 
 
