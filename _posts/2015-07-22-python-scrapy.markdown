@@ -25,3 +25,5 @@ categories: python
 
 	scrapy crawl itcast -o items.json -t json
 
+	testsd
+
