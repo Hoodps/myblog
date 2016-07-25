@@ -6,7 +6,6 @@ author: Hoodps
 categories: Django
 ---
 
-
 =====================================
 Writing your first Django app, part 1
 =====================================
