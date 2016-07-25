@@ -7,10 +7,6 @@ categories: Django
 ---
 
 
-=====================================
-Writing your first Django app, part 2
-=====================================
-
 This tutorial begins where :doc:`Tutorial 1 </intro/tutorial01>` left off.
 We'll setup the database, create your first model, and get a quick introduction
 to Django's automatically-generated admin site.
