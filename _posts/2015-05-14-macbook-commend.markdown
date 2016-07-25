@@ -65,5 +65,9 @@ CTRL+L
 ## 显示当前目录路径
 pwd
 
+## mac终端中显示tree的命令
+通过brew install tree 安装。
+
+
 
 
