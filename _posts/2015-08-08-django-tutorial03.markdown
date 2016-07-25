@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Django 教程3"
-date:   2015-07-25 09:23:59
+date:   2015-08-08 16:23:59
 author: Hoodps
 categories: Django
 ---
