@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "test"
-date:   2015-07-24 12:21:59
+title:  "PHPtes"
+date:   2015-06-14 11:43:59
 author: Hoodps
-categories: python
+categories: PHP
 ---
 
 
-test
+thhds
