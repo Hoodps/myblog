@@ -7,16 +7,13 @@ categories: Django
 ---
 
 
-=====================================
 Writing your first Django app, part 3
-=====================================
 
 This tutorial begins where :doc:`Tutorial 2 </intro/tutorial02>` left off. We're
 continuing the Web-poll application and will focus on creating the public
 interface -- "views."
 
 Overview
-========
 
 A view is a "type" of Web page in your Django application that generally serves
 a specific function and has a specific template. For example, in a blog
