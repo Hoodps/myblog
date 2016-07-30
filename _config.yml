@@ -27,7 +27,7 @@ theme_color: "#78909c"
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 15
 paginate_path: "/page:num/"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
