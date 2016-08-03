@@ -14,7 +14,7 @@ categories: matplotlib
 
 
 	import numpy as np
-	import matplotlib.pylot as plt
+	import matplotlib.pyplot as plt
 
 	heiht = [162,170,182,175,173,165]
 	wight = [50,58,80,70,69,55]
@@ -25,4 +25,16 @@ categories: matplotlib
 生成的散点图如下所示
 <img src="/assets/plt/scatrer.png" style="width: 50%;">
 
+	import numpy as np
 
+	import matplotlib.pyplot as plt
+
+	z = 1000
+
+	x = np.random.randn(z)
+	y = np.random.randn(z)
+
+	plt.scatter(x, y)
+
+生成的散点图如下所示
+<img src="/assets/plt/scatter1.png" style="width: 50%;">
