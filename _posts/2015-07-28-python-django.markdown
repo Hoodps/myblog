@@ -35,3 +35,19 @@ categories: python
 
 	]
 
+url的正则表达式
+
+	url(r'^test/\d{2}/$', views.test) #表示在test后面必须接一个两位数字
+	# http://127.0.0.1:8000/test/23
+
+	url(r'^test/(?P<id>\d{2})/$',views.test)
+	# http://127.0.0.1:8000/test/?id=23
+
+
+## 八.views.py详解
+1.
+
+
+
+
+
