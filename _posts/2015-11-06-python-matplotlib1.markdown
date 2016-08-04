@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "matplotlib 散点图"
+title:  "一.matplotlib 散点图"
 date:   2015-11-06 09:43:22
 author: Hoodps
 categories: matplotlib
@@ -23,13 +23,12 @@ categories: matplotlib
 	plt.show()
 
 生成的散点图如下所示
-<img src="/assets/plt/scatrer.png" style="width: 50%;">
+<img src="/assets/plt/scatrer.png" style="width: 80%;height:50%">
 
 	import numpy as np
 	import matplotlib.pyplot as plt
 
 	z = 1000
-
 	x = np.random.randn(z)
 	y = np.random.randn(z)
 
