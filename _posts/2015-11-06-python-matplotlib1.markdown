@@ -37,4 +37,4 @@ categories: matplotlib
 	plt.scatter(x, y)
 
 生成的散点图如下所示
-<img src="/assets/plt/scatter1.png" style="width: 50%;">
+<img src="/assets/plt/scatter2.png" style="width: 50%;">
