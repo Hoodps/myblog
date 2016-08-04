@@ -26,7 +26,6 @@ categories: matplotlib
 <img src="/assets/plt/scatrer.png" style="width: 50%;">
 
 	import numpy as np
-
 	import matplotlib.pyplot as plt
 
 	z = 1000
@@ -37,4 +36,4 @@ categories: matplotlib
 	plt.scatter(x, y)
 
 生成的散点图如下所示
-<img src="/assets/plt/scatter2.png" style="width: 50%;">
+<img src="/assets/plt/scatter2.png" style="width: 80%;height:50%">
