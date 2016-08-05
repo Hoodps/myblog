@@ -28,8 +28,11 @@ categories: matplotlib
 	import matplotlib.pyplot as plt
 	import matplotlib.dates as mdates
 
-	date,open,close = np.loadtxt('table.csv', delimiter=',', converters={0:mdates.strpdate2num('%Y-%m-%d')},skiprows=1,usecols=(0,1,4),unpack=True)
+	date,open,close = np.loadtxt('table.csv', delimiter=',', 
+	converters={0:mdates.strpdate2num('%Y-%m-%d')},skiprows=1,
+	usecols=(0,1,4),unpack=True)
 	#plt.plot(date,open)
+
 	plt.plot_date(date,open,'-')
 	plt.show()
 

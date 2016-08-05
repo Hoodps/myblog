@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "一.matplotlib 散点图"
+title:  "二.matplotlib 散点图"
 date:   2015-11-06 09:43:22
 author: Hoodps
 categories: matplotlib
